@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HackApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_student_login">StudentLoginActivity</string>
+    <string name="title_activity_company_login">CompanyLoginActivity</string>
+    <string name="title_activity_enter">EnterActivity</string>
+    <string name="title_activity_enter2">EnterActivity2</string>
+    <string name="title_activity_enter3">EnterActivity3</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Fund A Club</string>
+    <string name="title_section3">Create Event</string>
+    <string name="title_section4">About</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_activity_enter4">ActivityEnter4</string>
+    <string name="title_activity_enter4">EnterActivity4</string>
+    <string name="title_activity_qwerrt">qwerrt</string>
+    <string name="title_activity_qwerrtt">qwerrtt</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_fund_aclub">FundAClub</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_enter5">EnterActivity5</string>
+    <string name="title_activity_event">Event</string>
+    <string name="title_activity_fund">Fund</string>
+    <string name="title_activity_lehman">Lehman</string>
+    <string name="title_activity_nsbe">NSBE</string>
+</resources>

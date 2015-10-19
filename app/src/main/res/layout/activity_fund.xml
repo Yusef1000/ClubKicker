@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.test1.yusef.hackapp.Fund">
+
+    <Button
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        android:background="#3A3A3A"
+        android:id="@+id/home"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:text="Fund"
+        android:textColor="#FFFFFF"
+        android:background="#3A3A3A"
+        android:id="@+id/fund"
+        android:layout_alignTop="@+id/home"
+        android:layout_toRightOf="@+id/home" />
+
+    <Button
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:text="Event"
+        android:textColor="#FFFFFF"
+        android:background="#3A3A3A"
+        android:id="@+id/Event"
+        android:layout_alignTop="@+id/fund"
+        android:layout_toLeftOf="@+id/About"
+        android:layout_toStartOf="@+id/About" />
+
+    <Button
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#FFFFFF"
+        android:background="#3A3A3A"
+        android:id="@+id/About"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Funding"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/fund"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lehman College"
+        android:id="@+id/Lehman"
+        android:textColor="#0000A0"
+        android:background="#008000"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignRight="@+id/About"
+        android:layout_alignEnd="@+id/About" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Queens College"
+        android:id="@+id/button3"
+        android:textColor="#000000"
+        android:background="#FF0000"
+        android:layout_below="@+id/Lehman"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College of Staten Island"
+        android:id="@+id/button4"
+        android:textColor="#FFFFFF"
+        android:background="#0000FF"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City College"
+        android:id="@+id/button5"
+        android:textColor="#808080"
+        android:background="#800080"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/Lehman"
+        android:layout_alignEnd="@+id/Lehman"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMCC"
+        android:id="@+id/button6"
+        android:textColor="#0000FF"
+        android:background="#FFA500"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4" />
+
+</RelativeLayout>
